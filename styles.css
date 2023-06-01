@@ -1,6 +1,70 @@
-#art{
-    position: absolute;
-    left: 0em;
-    top: 0em;
-    
+* {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    background: transparent;
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body { font-size: 100%; }
+
+h1{ font-size: 2em; }
+
+h2{ font-size: 1.5em; }
+
+h3{ font-size: 1.125em; }
+
+p,li,q,blockquote{ font-size: 1em; }
+
+.page{
+    min-width: 800px;
+    max-width: 1060px;
+    width: 920px;
+    padding: 0 1.5%;
+    margin: 10px auto;
+}
+
+.header{
+    background-color: white;
+}
+
+.art{
+    background-color: black;
+}
+
+.text{
+    text-align: center;
+    padding: 70px 0;
+}
+
+.relative{
+    position:relative;
+    width: 400px;
+    height: 300px;
+}
+
+.absolute{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.section{
+    float: left;
+    width: 50%;
+    margin: 0 1.6%;
+}
+
+.content{
+    background-color: red;
+}
+
