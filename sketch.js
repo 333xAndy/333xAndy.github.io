@@ -9,7 +9,7 @@ function setup() {
     a2 = color(170,165,153); b2 = color(205,178,158);
     a3 = color(210,185,164); b3 = color(190,140,120);
     a4 = color(180,150,140); b4 = color(140,145,145);
-    a5 = color(190,170,150); b5 = color(30,45,60);
+    a5 = color(128,162,183); b5 = color(30,45,60);
     for(var i = 0; i < 50; i++){
         rocks[i] = new Rock()
     }
